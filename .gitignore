@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+.venv/
+env/
+
+# Large intermediate training CSVs (keep models/sample_engines.csv!)
+labeled_train_data_*.csv
+
+# Temporary development scripts
+run_notebook.py
+generate_notebook.py
+export_artifacts.py
+
+# Local streamlit config
+.streamlit/secrets.toml
+
+# System files
+.DS_Store
+Thumbs.db
