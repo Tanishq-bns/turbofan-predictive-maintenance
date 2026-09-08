@@ -1,5 +1,13 @@
 # ✈️ AeroPredict: Turbofan Engine Predictive Maintenance & Risk Intelligence
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://turbofan-predictive-maintenance-sr3eazfywgn6e52sda5ris.streamlit.app/)
+[![Python 3.13](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
+[![XGBoost](https://img.shields.io/badge/Model-XGBoost%20(98%25%20Acc)-success.svg)](https://xgboost.readthedocs.io/)
+
+🌐 **Live Web Application**: [https://turbofan-predictive-maintenance-sr3eazfywgn6e52sda5ris.streamlit.app/](https://turbofan-predictive-maintenance-sr3eazfywgn6e52sda5ris.streamlit.app/)
+
+---
+
 An end-to-end Machine Learning and Predictive Maintenance platform trained on the **NASA C-MAPSS (Commercial Modular Aero-Propulsion System Simulation)** dataset. 
 
 The application classifies engine degradation stages in real time, forecasts remaining operational cycles until the next degradation transition, and issues automated maintenance alerts via an interactive **Streamlit** dashboard.
@@ -42,7 +50,7 @@ The application classifies engine degradation stages in real time, forecasts rem
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<YOUR_USERNAME>/turbofan-predictive-maintenance.git
+   git clone https://github.com/Tanishq-bns/turbofan-predictive-maintenance.git
    cd turbofan-predictive-maintenance
    ```
 
